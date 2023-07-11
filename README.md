@@ -25,9 +25,9 @@ pip install requests
 ## Results
 ```
 Please enter a url:
-https://{{domain_name}}.com/backend/api/
+https://{{ domain_name }}.com/backend/api/
 -----------------------------------
-Origin:  https://{{domain_name}}.com
+Origin:  https://{{ domain_name }}.com
 Access Control Allowed: True
 -----------------------------------
 Origin:  https://random.com
