@@ -18,8 +18,9 @@ def request_url(url, origin):
         return False
 
 url = input("Please enter a url:\n")
-substring = url.find(".com")
-true_origin = url[:substring+4]
+true_origin = input("Please enter a true origin:\n")
+# substring = url.find(".com")
+# true_origin = url[:substring+4]
 flase_origin = 'https://random.com'
 origins = [true_origin, flase_origin]
 
